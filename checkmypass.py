@@ -35,7 +35,7 @@ def main(args):
                 f'{password} was found {count} times... you should probably change your password')
         else:
             print(f'{password} was NOT found. You are good to go.')
-    return 'DONE.'
+    return '\n'
 
 
 # Passwords are passed through the command line arguments
